@@ -12,7 +12,11 @@ Estimated Price: $20-40 depending on whether or not you're using a clone Arduino
 Install the libraries provided in the files, install them to your 
 arduino libary folder, usually C:\Users\%username%\Documents\Arduino\libraries.
 I used Arduino 1.6.6, but newer versions should work.  Will not work with 
-Arduino versions prior to 1.4.3.
+Arduino versions prior to 1.4.3.  In the libraries folder, you should have
+a "SSD1306Ascii-master" folder with files inside after unzipping.
+
+Arduino must be run at least once to generate the "Arduino" folder inside
+of "Documents."
 https://www.arduino.cc/en/Main/OldSoftwareReleases  
 
 # Physical Connections  
