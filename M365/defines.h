@@ -19,6 +19,7 @@
 #include "fonts/System5x7mod.h"
 #include "fonts/stdNumb.h"
 #include "fonts/bigNumb.h"
+#include "wire.h"
 
 #include <EEPROM.h>
 
