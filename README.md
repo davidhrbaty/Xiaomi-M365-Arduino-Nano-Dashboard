@@ -1,40 +1,29 @@
 # Xiaomi M365 Display 
 # Products Used  
-Arduino Pro Mini    
-I2C OLED 0.96" Screen    
-FTD1232 Usb Programmer   
+Arduino Nano    
+I2C OLED 0.96" Screen     
 3d Printed Bracket  
 1N4148 Diode  
 0.25w 120ohm Resistor       
 
-Estimated price is around 10$ (Inluding Printed Parts).
+Estimated Price: $20-40 depending on whether or not you're using a clone Arduino
 
 # Flashing  
-![alt text](https://i.imgur.com/DpPkvJz.jpg)  
-Please install the libraries I provided in the files, install them to you arduino library folder, usually              
-  C:\Users\\%username%\Documents\Arduino\libraries  
-I'd recommend you to use Arduino 1.6.6  
+Install the libraries provided in the files, install them to your 
+arduino libary folder, usually C:\Users\%username%\Documents\Arduino\libraries.
+I used Arduino 1.6.6, but newer versions should work.  Will not work with 
+Arduino versions prior to 1.4.3.
 https://www.arduino.cc/en/Main/OldSoftwareReleases  
 
 # Physical Connections  
-![alt text](https://camo.githubusercontent.com/a912641249173768ae60670e843c62294d06da4f/68747470733a2f2f656c656374726f2e636c75622f646174612f666f72756d2f6d657373616765732f34323633312f696d616765732f31313636302d313238302e6a7067)  
+![alt text](https://i.imgur.com/FpdTOOb.png)  
 
 # Known Issues  
-Sometimes the Arduino Freezes, a watchdog is in place but doesn't always trigger.  
+Sometimes, especially on hard braking, the Arduino freezes.  I am unsure of how
+to fix this, and the reset button does not fix it.  I recommend installing a NC 
+button to reset the Arduino on the +5V line, or simply stopping the scooter
+and restarting it.
 
-# Screen caps
-# Soldering, soldered directly to the cable coming from the MCU
-5V To Red    
-GND To Black  
-BUS To Yellow  
-![alt text](https://i.imgur.com/3ZwcrIJ.jpg)  
-A video on how everything is soldered may come soon.
-
-Meanwhile you can enable subtitles in English in this YouTube video produced in Spanish language
-https://www.youtube.com/watch?v=JQUNXCyj2Fs
-
-# UI
-UI pictures from version 0.2  
-![alt text](https://i.imgur.com/8ekMdIo.jpg)  
-![alt text](https://i.imgur.com/AHLVTcu.jpg)  
-More pictures are coming soon.
+# 3D Printed Case
+I am currently working on an updated 3D printed case design that fits the Nano,
+when that design is finished I will link it here.
