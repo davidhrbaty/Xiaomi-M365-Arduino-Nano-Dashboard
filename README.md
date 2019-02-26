@@ -29,5 +29,8 @@ button to reset the Arduino on the +5V line, or simply stopping the scooter
 and restarting it.
 
 # 3D Printed Case
-I am currently working on an updated 3D printed case design that fits the Nano,
-when that design is finished I will link it here.
+An updated 3D printed case that fits the nano is available here, on thingiverse:
+https://www.thingiverse.com/thing:3453576
+
+Print in PETG or ABS for heat resistance.  PLA goes too soft in the summer.
+Glues such as E6000 are required for installation.
