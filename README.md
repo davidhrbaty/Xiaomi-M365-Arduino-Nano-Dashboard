@@ -22,6 +22,8 @@ https://www.arduino.cc/en/Main/OldSoftwareReleases
 # Physical Connections  
 ![alt text](https://i.imgur.com/FpdTOOb.png)  
 
+4.7k ohm pull-up resistors, from the +5v to the SDA/SCL lines, may also be used to prevent occasional screen freezing.
+
 # Known Issues  
 Sometimes, especially on hard braking, the Arduino freezes.  I am unsure of how
 to fix this, and the reset button does not fix it.  I recommend installing a NC 
